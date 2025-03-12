@@ -47,10 +47,7 @@ Selain berbasis perintah, MushBot juga mendukung plugin yang berjalan secara oto
 
 ```js
 module.exports = async (sock, m) => {
-  if (!sock.public) {
-    return "Bot dalam mode non-public (self)";
-  }
-  // Tambahkan logika lain di sini
+  // Tambahkan logika di sini
 };
 ```
 Plugin ini berguna untuk fitur seperti **respon otomatis**, **filter pesan**, atau **notifikasi status bot**.  
