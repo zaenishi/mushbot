@@ -1,0 +1,25 @@
+{
+  "name": "MushBot",
+  "version": "1.0.0",
+  "description": "Base Bot Whatsapp",
+  "author": "zaenishi",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "start": "rm -f package-lock.json && node --no-warnings src/index.js"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.13",
+    "axios": "^1.7.9",
+    "boxen": "^5.1.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.3.1",
+    "figlet": "^1.8.0",
+    "link-preview-js": "^3.0.0",
+    "mongodb": "^5.7.0",
+    "node-cache": "^5.1.2",
+    "ora": "^6.3.1",
+    "pino": "^9.6.0",
+    "util": "^0.12.5"
+  }
+}
