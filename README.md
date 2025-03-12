@@ -1,6 +1,3 @@
-Berikut adalah versi yang lebih rapi dan informatif dari `README.md` kamu:  
-
----  
 
 # **MushBot**  
 **Script base yang mudah untuk dimodifikasi dan dipelihara**  
